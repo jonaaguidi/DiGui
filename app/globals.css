@@ -34,11 +34,11 @@
 }
 
 .red-gradient {
-  background: #DD1D43;
-  background: linear-gradient(-90deg, #DD1D43 0%, rgba(60, 51, 80, 0) 100%);
+  background: #dd1d43;
+  background: linear-gradient(-90deg, #dd1d43 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #DD1D43 0%,
+    #dd1d43 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
@@ -208,5 +208,20 @@
     transition: 0.15s ease-in;
     transform: scale(1.03);
     box-shadow: rgba(0, 0, 0, 0.99) 4px 4px 20px;
+  }
+}
+
+@keyframes pulse2 {
+  0%, 70% {
+    box-shadow: 0 0 0 0 #DD1D43;
+  }
+  100% {
+    box-shadow: 0 0 0 24px transparent;
+  }
+}
+
+@layer utilities {
+  .animate-pulse2 {
+    animation: pulse2 2.5s ease-in infinite; /* Aquí se corrige "pulse" a "pulse2" */
   }
 }
