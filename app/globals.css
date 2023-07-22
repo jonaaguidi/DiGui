@@ -114,7 +114,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* canvas- styles */
+/* Loader Spin */
 .canvas-loader {
   font-size: 10px;
   width: 1em;
@@ -222,6 +222,6 @@
 
 @layer utilities {
   .animate-pulse2 {
-    animation: pulse2 2.5s ease-in infinite; /* Aquí se corrige "pulse" a "pulse2" */
+    animation: pulse2 2.5s ease-in infinite; /* Aquí se corrige "pulse" a "pulse2 por las clases de Tailwind" */
   }
 }

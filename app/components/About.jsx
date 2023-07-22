@@ -7,10 +7,10 @@ import JonaIA from "../../public/JonaIA.jpg";
 
 const About = () => {
   return (
-    <motion.div id='about' className='w-full px-10 mt-4 flex flex-col items-center gap-12 md:flex-row justify-center'>
+    <motion.div id='about' className='w-full px-10 mt-18 mb-24 flex flex-col items-center gap-14 md:flex-row justify-center'>
       <motion.div className="flex flex-col" variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About Me.</h2>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
@@ -21,11 +21,16 @@ const About = () => {
           create efficient, scalable, and user-friendly solutions that solve
           real-world problems. Let's work together to bring your ideas to life!
         </motion.p>
+      <div className='mt-4'>Icons</div>
       </motion.div>
 
       <div className='animate-pulse2 bg-[#DD1D43] rounded-full p-6 flex justify-center items-center md:ml-6 md:order-first '>
-        <Image className='rounded-full' src={JonaIA} alt='Avatar' width={300} height={300} />
+        <div className='animate-pulse2 bg-tertiary rounded-full p-2   md:order-first '>
+          <Image className='rounded-full' src={JonaIA} alt='Avatar' width={300} height={300} />
+        </div>
       </div>
+
+
     </motion.div>
   );
 };
