@@ -1,25 +1,21 @@
-import React from 'react'
 import { styles } from '../styles'
 import Marquee from "react-fast-marquee";
 import Image from 'next/image';
-import JonaIA from "../../public/JonaIA.jpg";
+import { technologies } from '../constants';
 
 const Stack = () => {
     return (
         <div className='w-full overflow-hidden flex justify-center items-center flex-col mt-20 mb-24 px-10'>
             <p className={styles.sectionSubText}>¿Que Tecnologias utilizo?</p>
-            <h2 className={styles.sectionHeadText}>Mis Herramientas</h2>
-
-            <Marquee className='bg-whitesmoke p-5 mt-8' speed={80} delay={1} pauseOnHover={true} >
-            <div className='flex gap-4' >
-                <Image src={JonaIA} alt='Jona' width={160} height={180} />
-                <Image src={JonaIA} alt='Jona' width={160} height={180} />
-                <Image src={JonaIA} alt='Jona' width={160} height={180} />
-                <Image src={JonaIA} alt='Jona' width={160} height={180} />
-                <Image src={JonaIA} alt='Jona' width={160} height={180} />
-                <Image src={JonaIA} alt='Jona' width={160} height={180} />
-                <Image src={JonaIA} alt='Jona' width={160} height={180} />
-                <Image src={JonaIA} alt='Jona' width={160} height={180} />
+            <h2 className={`${styles.sectionHeadText} border-b-2 border-[#DD1D43]`}>Mi Tech Stack</h2>
+            <Marquee className='p-6 mt-8' speed={90} delay={1} pauseOnHover={true} >
+                <div className='flex gap-8 cursor-pointer' >
+                    {technologies.map((tech) => (
+                        <div key={tech.name} className='flex flex-col'>
+                            <Image src={tech.icon} alt={tech.name} width={110} height={110} />
+                            <p className='text-center pt-2'>{tech.name}</p>
+                        </div>
+                    ))}
                 </div>
             </Marquee>
 

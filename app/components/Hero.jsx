@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
           <div className="flex gap-5 mt-6">
             <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hero z-50">
-              <a target="no_blank" rel="noreferrer" href="https://drive.google.com/file/d/1hJge5a3NNa_Eg18tOPuIlOvBf0h2wZ4C/view?usp=drive_link">CV 📄</a>
+              <a target="no_blank" rel="noreferrer" href="https://drive.google.com/file/d/1vaBDm4RDSsao1hSIUsI9kKupRUT4AUjy/view?usp=drive_link">CV 📄</a>
             </button>
             <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hero z-50">
               <a href="#contact">Contact 📩</a>
