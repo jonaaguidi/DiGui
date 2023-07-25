@@ -9,8 +9,8 @@ const About = () => {
   return (
     <div id='about' className='w-full px-10 mt-18 mb-24 flex flex-col items-center gap-14 md:flex-row justify-center'>
       <div className="flex flex-col" >
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>About Me.</h2>
+        <p className={styles.sectionSubText}>Introducción</p>
+        <h2 className={styles.sectionHeadText}>Sobre Mi</h2>
         <p className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
           I'm a skilled software developer with experience in TypeScript and
           JavaScript, and expertise in frameworks like React, Node.js, and

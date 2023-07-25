@@ -23,7 +23,7 @@ const Hero = () => {
               <a target="no_blank" rel="noreferrer" href="https://drive.google.com/file/d/1vaBDm4RDSsao1hSIUsI9kKupRUT4AUjy/view?usp=drive_link">CV 📄</a>
             </button>
             <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hero z-40">
-              <a href="#contact">Contact 📩</a>
+              <a href="#contact">Contacto 📩</a>
             </button>
           </div>
         </div>
