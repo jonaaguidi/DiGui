@@ -19,10 +19,10 @@ const Hero = () => {
             I develop User Interfaces📲 <br className="sm:block hidden" />and Web Applications💻 following the best practices✔️
           </p>
           <div className="flex gap-5 mt-6">
-            <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hero z-50">
+            <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hero z-40">
               <a target="no_blank" rel="noreferrer" href="https://drive.google.com/file/d/1vaBDm4RDSsao1hSIUsI9kKupRUT4AUjy/view?usp=drive_link">CV 📄</a>
             </button>
-            <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hero z-50">
+            <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hero z-40">
               <a href="#contact">Contact 📩</a>
             </button>
           </div>

@@ -10,11 +10,11 @@ import {
     reactjs,
     redux,
     tailwind,
+    bootstrap,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -22,7 +22,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    next,
   } from "../../public/assets";
   
   export const navLinks = [
@@ -85,6 +85,10 @@ import {
       icon: redux,
     },
     {
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -97,20 +101,16 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Next.js",
+      icon: next,
     },
     {
-      name: "git",
+      name: "Git y Github",
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   

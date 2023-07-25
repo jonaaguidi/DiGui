@@ -13,6 +13,19 @@
   color-scheme: dark;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+body::-webkit-scrollbar-track{
+    border-radius: 12px;
+    background: #000000
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background:#DD1D43;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
