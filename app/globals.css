@@ -219,7 +219,7 @@ body::-webkit-scrollbar-thumb {
 @layer components {
   .btn-hero {
     transition: 0.15s ease-in;
-    transform: scale(1.03);
+    transform: scale(1.04);
     box-shadow: rgba(0, 0, 0, 0.99) 4px 4px 20px;
   }
 }

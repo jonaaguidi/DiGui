@@ -13,6 +13,7 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import npm from "./tech/npm.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -20,6 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import next from "./tech/next.jpg";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +61,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  npm,
 };

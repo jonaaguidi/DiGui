@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     next,
+    npm
   } from "../../public/assets";
   
   export const navLinks = [
@@ -91,6 +92,10 @@ import {
     {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "NPM",
+      icon: npm,
     },
     {
       name: "Node JS",

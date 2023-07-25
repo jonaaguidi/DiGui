@@ -11,14 +11,13 @@ const Stack = () => {
             <Marquee className='p-6 mt-8' speed={90} delay={1} pauseOnHover={true} >
                 <div className='flex gap-8 cursor-pointer' >
                     {technologies.map((tech) => (
-                        <div key={tech.name} className='flex flex-col justify-center align-middle'>
+                        <div key={tech.name} className='flex flex-col justify-center items-center gap-2'>
                             <Image src={tech.icon} alt={tech.name} width={120} height={120} />
                             <p className='text-center pt-2'>{tech.name}</p>
                         </div>
                     ))}
                 </div>
             </Marquee>
-
         </div>
     )
 }
