@@ -23,7 +23,8 @@ import {
     jobit,
     tripguide,
     next,
-    npm
+    npm,
+   
   } from "../../public/assets";
   
   export const navLinks = [

@@ -13,10 +13,10 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, Im <span className='text-[#DD1D43]'>Jonathan🤝</span>
+         Hola, Soy <span className='text-[#DD1D43]'>Jonathan🤝</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop User Interfaces📲 <br className="sm:block hidden" />and Web Applications💻 following the best practices✔️
+            Desarrollo Interfaces de usuario 📲 <br className="sm:block hidden" />y Aplicaciones Web💻 siguiendo las mejores practicas✔️
           </p>
           <div className="flex gap-5 mt-6">
             <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hero z-40">

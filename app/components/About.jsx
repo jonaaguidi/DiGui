@@ -18,12 +18,20 @@ const About = () => {
           create efficient, scalable, and user-friendly solutions that solve
           real-world problems. Let's work together to bring your ideas to life!
         </p>
-      <div className='mt-6 flex gap-4'>
-        <BsLinkedin href='https://www.linkedin.com/in/jonathanguidi/' className='text-white cursor-pointer w-8 h-8 hover:btn-hero hover:text-[#DD1D43]' />
-        <BsGithub href='https://github.com/jonaaguidi' className='text-white cursor-pointer w-8 h-8 hover:btn-hero hover:text-[#DD1D43]'/>
-        <BsTwitter href='https://twitter.com/JonaaGuidi' className='text-white cursor-pointer w-8 h-8 hover:btn-hero hover:text-[#DD1D43]' />
-        <BsFillEnvelopeFill id='contact' className='text-white cursor-pointer w-8 h-8 hover:btn-hero hover:text-[#DD1D43]' />
-      </div>
+        <div className='mt-6 flex gap-4'>
+          <a href='https://www.linkedin.com/in/jonathanguidi/' target='blank' rel='noreferrer'>
+            <BsLinkedin className='text-white cursor-pointer w-8 h-8 hover:btn-hero hover:text-[#DD1D43]' />
+          </a>
+          <a href='https://github.com/jonaaguidi' target='blank' rel='noreferrer'>
+            <BsGithub className='text-white cursor-pointer w-8 h-8 hover:btn-hero hover:text-[#DD1D43]' />
+          </a>
+          <a href='https://twitter.com/JonaaGuidi' target='blank' rel='noreferrer'>
+            <BsTwitter className='text-white cursor-pointer w-8 h-8 hover:btn-hero hover:text-[#DD1D43]' />
+          </a>
+          <a id='contact' target='blank' rel='noreferrer'>
+            <BsFillEnvelopeFill className='text-white cursor-pointer w-8 h-8 hover:btn-hero hover:text-[#DD1D43]' />
+          </a>
+        </div>
       </div>
 
       <div className='animate-pulse2 bg-[#DD1D43] rounded-full p-6 flex justify-center items-center md:ml-6 md:order-first '>
