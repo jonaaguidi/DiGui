@@ -26,8 +26,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -106,28 +106,32 @@ const projects = [
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     image: BR_app,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jonaaguidi/BRBurgers",
+    deploy: "https://br-burgers.vercel.app/"
   },
   {
-    name: "Car Rent",
+    name: "BR Burgers APP",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    image: carrent,
+    image: BR_app,
     source_code_link: "https://github.com/",
+    deploy: "https://br-burgers.vercel.app/"
   },
   {
-    name: "Job IT",
+    name: "BR Burgers APP",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    image: jobit,
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    image: BR_app,
     source_code_link: "https://github.com/",
+    deploy: "https://br-burgers.vercel.app/"
   },
   {
-    name: "Trip Guide",
+    name: "BR Burgers APP",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    image: tripguide,
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    image: BR_app,
     source_code_link: "https://github.com/",
+    deploy: "https://br-burgers.vercel.app/"
   },
 ];
 

@@ -5,12 +5,13 @@ import { BsLink, BsGithub } from "react-icons/bs";
 
 const Works = () => {
   return (
-    <div id="work" className="w-full overflow-hidden flex justify-center items-center flex-col mt-20 mb-24 px-10">
+    <div id="projects" className="w-full overflow-hidden flex justify-center items-center flex-col mt-20 mb-24 px-10">
       <p className={styles.sectionSubText}>¿Cuáles son mis Proyectos?</p>
       <h2 className={`${styles.sectionHeadText} border-b-2 border-[#DD1D43]`}>Mis Proyectos</h2>
-      <div className="flex gap-8 mt-12 px-8 max-w-7xl">
+      <div className="flex flex-col justify-center gap-8 mt-12 py-6  max-w-7xl xl:flex-row">
         {projects.map((project) => (
-          <div key={project.name} className="h-fit flex flex-col items-center min-w-xs max-w-sm px-4  py-6 bg-[#DD1D43] rounded-2xl">
+
+          <div key={project.name} className="h-[fit] flex flex-col items-center min-w-xs max-w-sm px-6 py-8 bg-[#DD1D43] rounded-2xl boxsh-cards">
 
             <Image
               src={project.image}
@@ -23,19 +24,20 @@ const Works = () => {
               <p className="text-xs">{project.description}</p>
             </div>
 
-            <div className="flex gap-5 mt-6">
-              <button class="bg-primary text-sm font-semibold text-white py-2 px-4 rounded-2xl cursor-pointer">
-                <a className="flex items-center gap-2" target="no_blank" rel="noreferrer" href="https://drive.google.com/file/d/1vaBDm4RDSsao1hSIUsI9kKupRUT4AUjy/view?usp=drive_link">
-                <BsGithub className="text-lg"/>Github</a>
+            <div className="flex gap-6 mt-6">
+              <button class="bg-primary text-sm font-semibold text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_color">
+                <a className="flex items-center gap-2" target="no_blank" rel="noreferrer" href={project.source_code_link}>
+                  <BsGithub className="text-lg" />Github</a>
               </button>
-              <button class="bg-primary text-sm font-semibold text-white py-2 px-4 rounded-2xl cursor-pointer">
-                <a className="flex items-center gap-2" href="#contact">
-                <BsLink className="text-lg" />Deploy
+              <button class="bg-primary text-sm font-semibold text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_color">
+                <a target="no_blank" rel="noreferrer" className="flex items-center gap-2" href={project.deploy}>
+                  <BsLink className="text-lg" />Deploy
                 </a>
               </button>
             </div>
 
           </div>
+
         ))}
       </div>
     </div>

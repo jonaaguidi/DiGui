@@ -14,16 +14,16 @@
 }
 
 body::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+  width: 10px;
+  height: 10px;
 }
-body::-webkit-scrollbar-track{
-    border-radius: 12px;
-    background: #000000
+body::-webkit-scrollbar-track {
+  border-radius: 12px;
+  background: #000000;
 }
 body::-webkit-scrollbar-thumb {
-    border-radius: 12px;
-    background:#DD1D43;
+  border-radius: 12px;
+  background: #dd1d43;
 }
 
 .hash-span {
@@ -131,17 +131,33 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-@layer components {
-  .btn-hero {
-    transition: 0.15s ease-in;
-    transform: scale(1.04);
+@layer utilities {
+  .btn-hover_scale {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.045);
     box-shadow: rgba(0, 0, 0, 0.99) 4px 4px 20px;
   }
 }
 
+@layer utilities {
+  .btn-hover_color {
+    transition: 0.35s ease-in-out;
+    transform: scale(1.04);
+    background-color: whitesmoke;
+    color: black;
+  }
+}
+
+@layer utilities {
+  .boxsh-cards {
+    box-shadow: rgba(255, 0, 0, 0.4) 6px 6px, rgba(255, 0, 0, 0.3) 12px 12px, rgba(255, 0, 0, 0.2) 16px 16px, rgba(255, 0, 0, 0.1) 20px 20px, rgba(255, 0, 0, 0.05) 30px 30px;
+  }
+}
+
 @keyframes pulse2 {
-  0%, 70% {
-    box-shadow: 0 0 0 0 #DD1D43;
+  0%,
+  70% {
+    box-shadow: 0 0 0 0 #dd1d43;
   }
   100% {
     box-shadow: 0 0 0 24px transparent;
@@ -153,3 +169,6 @@ body::-webkit-scrollbar-thumb {
     animation: pulse2 2.5s ease-in infinite; /* Aquí se corrige "pulse" a "pulse2 por las clases de Tailwind" */
   }
 }
+
+
+
