@@ -1,3 +1,4 @@
+import { BsFiletypePdf, BsFillEnvelopeFill } from "react-icons/bs"
 import { styles } from "../styles"
 import { ComputersCanvas } from "./canvas"
 import Scroll from "./Scroll"
@@ -19,11 +20,13 @@ const Hero = () => {
             Desarrollo Interfaces de usuario 📲 <br className="sm:block hidden" />y Aplicaciones Web💻 siguiendo las mejores practicas✔️
           </p>
           <div className="flex gap-5 mt-6">
-            <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_scale z-40">
-              <a target="no_blank" rel="noreferrer" href="https://drive.google.com/file/d/1vaBDm4RDSsao1hSIUsI9kKupRUT4AUjy/view?usp=drive_link">CV 📄</a>
+            <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_scale z-40 flex items-center justify-center gap-2">
+              <a target="no_blank" rel="noreferrer" href="https://drive.google.com/file/d/1vaBDm4RDSsao1hSIUsI9kKupRUT4AUjy/view?usp=drive_link">CV</a>
+              <BsFiletypePdf className="text-xl"/>
             </button>
-            <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_scale z-40">
-              <a href="#contact">Contacto 📩</a>
+            <button class="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_scale z-40 flex items-center justify-center gap-2">
+              <a href="#contact">Contacto</a>
+              <BsFillEnvelopeFill className="text-xl" />
             </button>
           </div>
         </div>
