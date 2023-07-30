@@ -1,24 +1,19 @@
-import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import { ComputersCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
-import Experience from './Experience';
 import Works from './Works';
-import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Stack from './Stack';
+import Footer from './Footer';
 
 export {
-  Hero,
   Navbar,
-  About,
-  Experience,
+  Hero,
+  ComputersCanvas,
+  About, 
+  Stack,
   Works,
-  Feedbacks,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
-  StarsCanvas,
-  Stack
+  Footer
 }

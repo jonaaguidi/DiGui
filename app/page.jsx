@@ -1,6 +1,6 @@
 'use client'
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Works, StarsCanvas, Stack } from "./components";
+import { About, Contact, Hero, Navbar, Works, Stack, Footer } from "./components";
 
 const App = () => {
   return (
@@ -13,11 +13,9 @@ const App = () => {
         <About />
         <Stack />
         <Works />
-        <Experience />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          <Footer />
         </div>
       </div>
     </BrowserRouter>

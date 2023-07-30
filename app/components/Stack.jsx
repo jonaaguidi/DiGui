@@ -5,7 +5,7 @@ import { technologies } from '../constants';
 
 const Stack = () => {
     return (
-        <div className='w-full overflow-hidden flex justify-center items-center flex-col mt-20 mb-24 px-10'>
+        <div id='about' className='w-full overflow-hidden flex justify-center items-center flex-col mt-20 mb-24 px-10'>
             <p className={styles.sectionSubText}>¿Que Tecnologías utilizo?</p>
             <h2 className={`${styles.sectionHeadText} border-b-2 border-[#DD1D43]`}>Mi TECH Stack</h2>
             <Marquee className='p-6 mt-8' speed={90} delay={1} pauseOnHover={true} >

@@ -1,6 +1,4 @@
 import logo from "./logo.svg";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,15 +19,10 @@ import next from "./tech/next.jpg";
 import vite from "./tech/vite.png"
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import BR_app from "./BR_app.jpg"
 
 export {
   logo,
-  creator,
-  mobile,
   menu,
   close,
   css,
@@ -45,9 +38,6 @@ export {
   tailwind,
   typescript,
   next,
-  carrent,
-  jobit,
-  tripguide,
   npm,
   vite,
   BR_app

@@ -11,9 +11,6 @@ import {
   mongodb,
   git,
   figma,
-  carrent,
-  jobit,
-  tripguide,
   next,
   npm,
   vite,
@@ -23,15 +20,15 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre mi",
   },
   {
     id: "projects",
-    title: "Projects",
+    title: "Proyectos",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contacto",
   },
 ];
 
