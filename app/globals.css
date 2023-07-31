@@ -135,7 +135,7 @@ body::-webkit-scrollbar-thumb {
   .btn-hover_scale {
     transition: 0.2s ease-in-out;
     transform: scale(1.045);
-    box-shadow: rgba(0, 0, 0, 0.99) 4px 4px 20px;
+    box-shadow: rgba(0, 0, 0, 0.90) 6px 6px 15px;
   }
 }
 

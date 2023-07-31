@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { styles } from "../styles"
 import emailjs from "@emailjs/browser"
+import { BsFillChatLeftDotsFill } from "react-icons/bs";
 
 const Contact = () => {
   const formRef = useRef();
@@ -66,10 +67,13 @@ const Contact = () => {
       </div>
 
 
-      <div className="w-full bg-hero-pattern bg-cover bg-no-repeat bg-center z-10 flex gap-40 items-center justify-center overflow-hidden px-12 py-6 mx-auto">
-        <div className='w-fit bg-[#DD1D43] rounded-2xl boxsh-cards p-8 mb-12'>
-          <h3 className={styles.sectionHeadText}>Hablemos!</h3>
-          <p className={`${styles.sectionSubText} ml-2`}> ¿Cómo puedo ayudarte?</p>
+      <div className="w-full bg-hero-pattern bg-cover bg-no-repeat bg-center z-10 flex items-center justify-center overflow-hidden px-16 py-6 mx-auto">
+        <div className='xl:w-2/3 sm:w-fit bg-[#DD1D43] rounded-2xl boxsh-cards p-12 mb-12'>
+          <h3 className={`${styles.sectionHeadText} flex gap-4`}>
+            Hablemos
+            <BsFillChatLeftDotsFill className="text-xxl" />
+          </h3>
+          <p className={`${styles.sectionSubText} ml-2 text-black font-bold`}>¿Cómo puedo ayudarte?</p>
 
           <form
             ref={formRef}
@@ -83,7 +87,7 @@ const Contact = () => {
                 name='name'
                 value={form.name}
                 onChange={handleChange}
-                placeholder="What's your good name?"
+                placeholder="¿Cúal es tu Nombre?"
                 className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               />
             </label>
@@ -94,7 +98,7 @@ const Contact = () => {
                 name='email'
                 value={form.email}
                 onChange={handleChange}
-                placeholder="What's your web address?"
+                placeholder="¿Cúal es tu Email?"
                 className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               />
             </label>
@@ -105,18 +109,17 @@ const Contact = () => {
                 name='message'
                 value={form.message}
                 onChange={handleChange}
-                placeholder='¿Como puedo ayudarte?'
+                placeholder='¿Cómo puedo ayudarte?'
                 className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               />
             </label>
             <button
               type='submit'
-              className='bg-tertiary w-[320px] mx-auto py-3 px-8 rounded-xl outline-none  text-white font-bold shadow-md shadow-primary'>
-              {loading ? "Sending..." : "Send"}
+              className='bg-tertiary w-[320px] mx-auto py-3 px-8 rounded-xl outline-none  text-white font-bold shadow-md shadow-primary hover:btn-hover_scale'>
+              {loading ? "Enviando..." : "Enviar"}
             </button>
           </form>
         </div>
-        <div>HOLA</div>
       </div>
     </>
   )
