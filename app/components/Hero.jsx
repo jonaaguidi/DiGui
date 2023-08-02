@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
           <div className="flex gap-5 mt-6">
             <button className="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_scale z-40 flex items-center justify-center gap-2">
-              <a target="no_blank" rel="noreferrer" href="https://drive.google.com/file/d/1vaBDm4RDSsao1hSIUsI9kKupRUT4AUjy/view?usp=drive_link">CV</a>
+              <a target="no_blank" rel="noreferrer" href="https://drive.google.com/file/d/1FhRIs0HKaXrahX2TmIsz7DhrGwEyqNwi/view">CV</a>
               <BsFiletypePdf className="text-xl"/>
             </button>
             <button className="bg-[#DD1D43] text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_scale z-40 flex items-center justify-center gap-2">
