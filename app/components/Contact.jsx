@@ -29,21 +29,21 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_k9vslec",
+        "template_ysaf1dm",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Jonathan Guidi",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "jguidi.info@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "7Zsvg85MJ1CsRVjVr"
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("¡Gracias! Intentare comunicarme lo antes posible 🤝");
 
           setForm({
             name: "",
@@ -54,21 +54,21 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Ocurrio un Error, intentalo denuevo porfavor!");
         }
       );
   };
   return (
     <>
 
-      <div id="contact" className="w-full overflow-hidden flex justify-center items-center flex-col mt-20 mb-24 px-10">
+      <div className="w-full overflow-hidden flex justify-center items-center flex-col mt-20 mb-24 px-10">
         <p className={styles.sectionSubText}>¿Tenés una idea de negocio?</p>
         <h2 className={`${styles.sectionHeadText} border-b-2 border-[#DD1D43]`}>Trabajemos!</h2>
       </div>
 
 
       <div className="w-full bg-hero-pattern bg-cover bg-no-repeat bg-center z-10 flex items-center justify-center overflow-hidden px-16 py-6 mx-auto">
-        <div className='xl:w-2/3 sm:w-fit bg-[#DD1D43] rounded-2xl boxsh-cards p-12 mb-12'>
+        <div className='xl:w-2/4 sm:w-fit bg-[#DD1D43] rounded-2xl boxsh-cards p-12 mb-12'>
           <h3 className={`${styles.sectionHeadText} flex gap-4`}>
             Hablemos
             <BsFillChatLeftDotsFill className="text-xxl" />

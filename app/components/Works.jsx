@@ -20,16 +20,16 @@ const Works = () => {
             />
 
             <div>
-              <h3 className=" text-lg text-left font-semibold">{project.name}</h3>
+              <h3 className=" text-lg text-left font-semibold py-1">{project.name}</h3>
               <p className="text-xs">{project.description}</p>
             </div>
 
             <div className="flex gap-6 mt-6">
-              <button class="bg-primary text-sm font-semibold text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_color">
+              <button className="bg-primary text-sm font-semibold text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_color">
                 <a className="flex items-center gap-2" target="no_blank" rel="noreferrer" href={project.source_code_link}>
                   <BsGithub className="text-lg" />Github</a>
               </button>
-              <button class="bg-primary text-sm font-semibold text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_color">
+              <button className="bg-primary text-sm font-semibold text-white py-2 px-4 rounded-2xl cursor-pointer hover:btn-hover_color">
                 <a target="no_blank" rel="noreferrer" className="flex items-center gap-2" href={project.deploy}>
                   <BsLink className="text-lg" />Deploy
                 </a>

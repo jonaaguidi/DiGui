@@ -5,10 +5,10 @@ import Image from 'next/image'
 
 const Footer = () => {
     return (
-        <div className='w-full bg-[#DD1D43] p-10'>
-            <div className='flex justify-center items-center gap-4 border-b-2 pb-8'>
-                <Image src={logov2} alt="logo" className='w-14 h-16' />
-                <p class="text-white font-bold">Jonathan Guidi - Frontend Dev 💻</p>
+        <div className='w-full bg-[#DD1D43] p-4'>
+            <div className='flex justify-center items-center gap-4 pb-6 pt-2 border-b-2 '>
+                <Image src={logov2} alt="logo" className='w-14 h-14' />
+                <p className="text-white font-bold">Jonathan Guidi - Frontend Developer</p>
             </div>
 
             <div className='mt-8 flex items-center justify-center gap-4'>

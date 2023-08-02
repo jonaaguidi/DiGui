@@ -20,6 +20,8 @@ import vite from "./tech/vite.png"
 
 
 import BR_app from "./BR_app.jpg"
+import Educator from "./educator.jpg"
+import TusPeliculas from "./tuspeliculas.jpg"
 
 export {
   logo,
@@ -40,5 +42,7 @@ export {
   next,
   npm,
   vite,
-  BR_app
+  BR_app,
+  Educator,
+  TusPeliculas
 };
