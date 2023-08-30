@@ -16,7 +16,8 @@ import {
   vite,
   BR_app,
   Educator,
-  TusPeliculas
+  TusPeliculas,
+  Infinix
 } from "../../public/assets";
 
 export const navLinks = [
@@ -103,10 +104,18 @@ const projects = [
   {
     name: "BR Burgers APP",
     description:
-    "La Landing Page nos redirecciona a la aplicación web donde tenemos un menú desplegable con los productos. Cuando elegimos un producto, aparece un modal con las distintas opciones del mismo. Una vez seleccionada la opción del producto, este se añade a un carrito y aparece un botón que nos permite enviar nuestro pedido por WhatsApp con todos los datos del envío.",
+      "La Landing Page nos redirecciona a la aplicación web donde tenemos un menú desplegable con los productos. Cuando elegimos un producto, aparece un modal con las distintas opciones del mismo. Una vez seleccionada la opción del producto, este se añade a un carrito y aparece un botón que nos permite enviar nuestro pedido por WhatsApp con todos los datos del envío.",
     image: BR_app,
     source_code_link: "https://github.com/jonaaguidi/BRBurgers",
     deploy: "https://br-burgers.vercel.app/"
+  }, 
+  {
+    name: "Infinix Holding",
+    description:
+      "Landing Page hecha originalmente con HTML, CSS, JavaScript, Bootstrap y jQuery, se migraron los componentes UI a tecnologias del ecosistema de React.js mejorando su escalabilidad y mantenimiento. Añadiendo nuevas funcionalidades como el manejo de rutas para los distintos idiomas utilizando React-Router, Animaciones al scrollear, etc.",
+    image: Infinix,
+    source_code_link: "https://github.com/jonaaguidi/infinix_landing",
+    deploy: "https://infinix-landing.vercel.app/"
   },
   {
     name: "TusPeliculas APP",
@@ -124,6 +133,7 @@ const projects = [
     source_code_link: "https://github.com/jonaaguidi/JSVanilla-Projects/tree/main/JavaScript-EducationWebsite",
     deploy: "https://educatorjs.vercel.app/"
   },
+
 ];
 
 export { technologies, projects };

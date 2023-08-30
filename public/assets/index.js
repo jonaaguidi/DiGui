@@ -19,9 +19,10 @@ import next from "./tech/next.jpg";
 import vite from "./tech/vite.png"
 
 
-import BR_app from "./BR_app.jpg"
-import Educator from "./educator.jpg"
-import TusPeliculas from "./tuspeliculas.jpg"
+import BR_app from "./works/BR_app.jpg"
+import Educator from "./works/educator.jpg"
+import TusPeliculas from "./works/tuspeliculas.jpg"
+import Infinix from "./works/infinix.jpg"
 
 export {
   logo,
@@ -44,5 +45,6 @@ export {
   vite,
   BR_app,
   Educator,
-  TusPeliculas
+  TusPeliculas,
+  Infinix
 };
